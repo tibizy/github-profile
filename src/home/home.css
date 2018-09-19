@@ -1,0 +1,9 @@
+.Home input.intro-search{
+    font-size: 5em;
+    text-align: center;
+    height: 50px;
+    margin: 50px auto;
+    padding: 50px;
+    border: none;
+    outline: none;
+  }

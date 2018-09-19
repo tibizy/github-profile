@@ -1,0 +1,92 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-logo.loader{
+  height: 30px;
+  width: 30px;
+  display: none;
+  vertical-align: middle;
+}
+
+.App-logo.loading {
+  animation: App-logo-spin infinite 2s linear;
+  display: inline;
+}
+
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.menu.light li a{
+  padding: 20px;
+}
+.menu.light li.active a{
+  color: #fff
+}
+.menu.light li:not(.active) a{
+  color: #ddd;
+  opacity: 0.6;
+}
+.menu.unstyled{
+  list-style: none
+}
+.menu.inline li{
+  display: inline-block;
+}
+
+ul.list-custom{
+  list-style: none;
+  text-align: left;
+  max-width: 500px;
+  width:100%;
+  margin: 0 auto; 
+  padding-inline-start: 0px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul.list-custom li{
+  border-top: 1px solid #e6e6e6;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px; 
+  cursor: pointer;
+}
+ul.list-custom li .name{
+  display: inline;
+  padding: 20px;
+}
+
+ul.list-custom li .avatar{
+  display: inline;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+ul.list-custom li.no-avatar p{
+  margin: 20px;
+  font-size: 80%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

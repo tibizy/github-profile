@@ -1,0 +1,13 @@
+.SearchResult input.search{
+    padding: 10px;
+    margin-top: 2em;
+    width: 250px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.SearchResult .small{
+    font-size: 11px;
+    margin-left: -40px;
+}
+

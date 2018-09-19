@@ -1,0 +1,48 @@
+
+.Profile {
+  text-align: left;
+  max-width: 700px;
+  width:100%;
+  margin: 0 auto; 
+  margin-top: 2em;
+  padding-inline-start: 0px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.Profile .name{
+  display: inline;
+  padding: 20px;
+}
+
+.Profile .avatar{
+  display: inline;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.Profile .menu{
+  border-bottom: 1px #deeede solid;
+  padding: 20px;
+  margin: 0;
+}
+.Profile .menu button{
+  padding: 10px;
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.Profile .menu button.active{
+  font-weight: bold;
+}
+
+.Profile .section{
+  padding: 25px;
+  font-size: 70%;
+}
+
+.Profile ul.list-custom{
+  width: 100%;
+  max-width: unset;
+  border: 0;
+}
